@@ -19,7 +19,7 @@ Saya Ardyn Rezky Fahreza NIM 2103551 mengerjakan soal TP 2 dalam mata kuliah Des
     pass : admin
 2. Masuk ke menu utama Daftar Anime
 3. Jika ingin menambah data anime, user hanya klik button `Add` lalu memasukkan data anime baru ke dalam form yang telah disediakan
-4. Jika ingin mengedit data yang telah ada, user hanya perlu klik tombol `edit` yang ada pada card yang dipilih
+4. Jika ingin mengedit data yang telah ada, user hanya perlu klik tombol `edit` yang ada pada card yang dipilih, lalu isi form yang telah disediakan
 5. begitu pula dengan Delete
 6. User bisa menekan button `Studio` untuk melihat data studio
 7. Di halaman studio user dapat melakukan hal yang sama pada halaman daftar anime
