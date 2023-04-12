@@ -13,6 +13,25 @@ Saya Ardyn Rezky Fahreza NIM 2103551 mengerjakan soal TP 2 dalam mata kuliah Des
 - Terdapat button navigasi untuk beralih screen
 - List data ditampilkan menggunakan card (JPanel)
 
+## Design Program
+Program ini memiliki 3 `Java class`, yaitu:
+- `Anime`       -> kelas ini merupakan kelas yang digunakan untuk menginisialisasi atribut-atribut dari kelas `Anime` ini masing masing atribut memiliki fungsi setter dan getter nya
+- `Studio`      -> kelas ini merupakan kelas yang digunakan untuk menginisialisasi atribut-atribut dari kelas `Studio` ini masing masing atribut memiliki fungsi setter dan getter nya
+- `dbConnection -> kelas ini digunakan untk melakukan koneksi ke database. Kelas ini memiliki dua atibut ,yaitu:
+    - stmt  -> tipe data Statement
+    - conn  -> tipe data Connection
+Method method yang ada pada kelas ini diperlukan untuk memudahkan proses query dari aplikasi ke database.
+
+Lalu, Program ini juga meiliki 4 `Jframe Form`, yaitu:
+- `Login`       -> Kelas login ini digunakan sebagai `Main` yang akan muncul dihalaman paling awal saat program dijalankan, kelas ini mengimplementasikan frame untuk login.
+- `Display`     -> Kelas ini digunakan untuk menampilkan Jpanel dalam bentuk card yang berisi informasi-informasi calam bentuk GridLayout
+- `StudioForm`  -> kelas ini mengimplementasikan frame untuk Form menambah dan mengedit data pada Card Studio. Frame ini memiliki button `Submit` yang akan berubah fungsi ketika button yang diklik edit atau add.
+- `AnimeForm`   -> kelas ini mengimplementasikan frame untuk Form menambah dan mengedit data pada Card Anime. Frame ini memiliki button `Submit` yang akan berubah fungsi ketika button yang diklik edit atau add.
+
+Lalu, Program ini juga memiliki 2 `Jpanel Form`, yaitu:
+- `studioPanel` -> kelas ini digunakan sebagai card yang akan menampilkan informasi-informasi tentang anime, setelah itu card ini akan ditampilkan secara Gridlayout dihalaman Display.
+- `animePanel`  -> kelas ini digunakan sebagai card yang akan menampilkan informasi-informasi tentang studio, setelah itu card ini akan ditampilkan secara Gridlayout dihalaman Display.
+
 ## Alur Program
 1. Pertama user akan disuruh untuk login
     Username : admin
@@ -22,5 +41,7 @@ Saya Ardyn Rezky Fahreza NIM 2103551 mengerjakan soal TP 2 dalam mata kuliah Des
 4. Jika ingin mengedit data yang telah ada, user hanya perlu klik tombol `edit` yang ada pada card yang dipilih, lalu isi form yang telah disediakan
 5. begitu pula dengan Delete
 6. User bisa menekan button `Studio` untuk melihat data studio
-7. Di halaman studio user dapat melakukan hal yang sama pada halaman daftar anime
+7. Di halaman studio user dapat melakukan hal yang sama pada halaman daftar anime.
+
+## Dokumentasi Program
 
