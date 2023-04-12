@@ -46,19 +46,25 @@ Lalu, Program ini juga memiliki 2 `Jpanel Form`, yaitu:
 
 ## Dokumentasi Program
 * **Halaman Login**
+
 ![Screenshot - ](https://github.com/ArdynRF/TP2DPBO2023/blob/main/Dokumentasi/loginPage.png)
 
 * **Halaman Daftar Anime**
+
 ![Screenshot - ](https://github.com/ArdynRF/TP2DPBO2023/blob/main/Dokumentasi/AnimePage.png)
 
 * **Halaman Menambah Anime**
+
 ![Screenshot - ](https://github.com/ArdynRF/TP2DPBO2023/blob/main/Dokumentasi/AddAnime.png)
 
 * **Halaman Setelah Delete**
+ 
 ![Screenshot - ](https://github.com/ArdynRF/TP2DPBO2023/blob/main/Dokumentasi/Deleted.png)
 
 * **Halaman Edit Anime**
+
 ![Screenshot - ](https://github.com/ArdynRF/TP2DPBO2023/blob/main/Dokumentasi/EditAnime.png)
 
 * **Halaman Daftar Studio**
+
 ![Screenshot - ](https://github.com/ArdynRF/TP2DPBO2023/blob/main/Dokumentasi/StudioPage.png)
