@@ -17,9 +17,10 @@ Saya Ardyn Rezky Fahreza NIM 2103551 mengerjakan soal TP 2 dalam mata kuliah Des
 Program ini memiliki 3 `Java class`, yaitu:
 - `Anime`       -> kelas ini merupakan kelas yang digunakan untuk menginisialisasi atribut-atribut dari kelas `Anime` ini masing masing atribut memiliki fungsi setter dan getter nya
 - `Studio`      -> kelas ini merupakan kelas yang digunakan untuk menginisialisasi atribut-atribut dari kelas `Studio` ini masing masing atribut memiliki fungsi setter dan getter nya
-- `dbConnection -> kelas ini digunakan untk melakukan koneksi ke database. Kelas ini memiliki dua atibut ,yaitu:
+- `dbConnection` -> kelas ini digunakan untk melakukan koneksi ke database. Kelas ini memiliki dua atibut ,yaitu:
     - stmt  -> tipe data Statement
     - conn  -> tipe data Connection
+
 Method method yang ada pada kelas ini diperlukan untuk memudahkan proses query dari aplikasi ke database.
 
 Lalu, Program ini juga meiliki 4 `Jframe Form`, yaitu:
